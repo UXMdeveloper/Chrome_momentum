@@ -84,9 +84,9 @@ function handleResize(){
 }
 window.addEventListener("resize", handleResize)
 
+const CLICKED_CLASS = "clicked";
 function handleClick(){
-    console.log("Clicked");
-    title.style.color = "skyblue";
+    title.classList.toggle(CLICKED_CLASS)
 }
 title.addEventListener("click", handleClick)
 
@@ -107,3 +107,21 @@ if (age >= 20){
 } else{
     console.log('You cannot drink')
 }
+
+const BASE_COLOR = "rgb(52, 73, 94)";
+const OTHER_COLOR = "#FFFFFF";
+
+
+function init(){
+    title.style.color = BASE_COLOR;
+    title.addEventListener("click", handleClick);
+}
+
+init();
+//HTML Javascript DOM event MDN
+
+function handleOffline(){
+    console.log("lalalala");
+}
+
+navigator.addEventListener("offline" ,handleOffline);
