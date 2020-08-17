@@ -5,8 +5,6 @@ const toDoList = document.querySelector(".js-toDoList")
 const TODOS_Ls = 'toDos';
 let toDos = [];
 
-
-
 //TODOlist 제거.
 //btn의 father에 해당하는 li 소거.
 //cleanToDos returns an array having checked(clicked) items.
