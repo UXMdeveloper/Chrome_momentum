@@ -9,11 +9,12 @@ Chrome new tap : momentum clone coding
 + TODO List 기능 구현(todo.js)
 + set backgrounds
 + 위치 정보에 따른 날씨 정보 제공 기능 구현 by using Openweather API (weather.js)   
->Screenshots    
 
-------------------------------------------------------------------------------------
 >WHAT TO DO (DUE: 08/21)
 + CSS 추가
 + 배경화면 1MB 이하 사진들로 변경
 + 날씨 위젯 구현
-+ 하단 명언 추가
++ 하단 명언 추가   
+
+>Screenshots    
+-완성 후 추가 예정
