@@ -12,10 +12,11 @@ Chrome new tap : momentum clone coding
 + 페이지 하단 명언 표시 기능 구현(quote.js)   
 
 >WHAT TO DO (DUE: 08/21)
-+ CSS 추가
++ CSS 수정
 + 배경화면 1MB 이하 사진들로 변경
 + 날씨 위젯 구현
-
++ Todo list emoji 변경
++ clock font 찾아보기   
 >Screenshots    
 -완성 후 추가 예정   
 
