@@ -7,18 +7,19 @@
         <link rel="stylesheet" href="index.css"/>
     </head>
     <body>
-        <div class="js-clock">
-            <h1 class="clock">00:00</h1>
+        <div class="Aligner">
+            
+            <h1 class="text-clock">00:00</h1>
+            <form class = "js-form form">
+                <input type = "text" placeholder = "What is your name ?"/>
+            </form>
+            <h4 class="js-greetings greetings"></h4>
+            <!--javascript는 항상 html파일 body 아래에 있어야 한다.-->
+            <form class = "js-toDoForm">
+                <input type = "text" placeholder = "Write a to do"/>
+            </form>
+            <ul class="js-toDoList"></ul>
         </div>
-        <form class = "js-form form">
-            <input type = "text" placeholder = "What is your name ?"/>
-        </form>
-        <h4 class="js-greetings greetings"></h4>
-        <!--javascript는 항상 html파일 body 아래에 있어야 한다.-->
-        <form class = "js-toDoForm">
-            <input type = "text" placeholder = "Write a to do"/>
-        </form>
-        <ul class="js-toDoList"></ul>
         <div class="js-quote"></div>
         <span class="js-weather"></span>
         <script src="./js/clock.js"></script>

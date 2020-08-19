@@ -1,5 +1,5 @@
-const clockContainer = document.querySelector(".js-clock");
-const clockTitle = clockContainer.querySelector("h1");
+const aligner = document.querySelector(".Aligner");
+const clockTitle = aligner.querySelector("h1");
 
 //clock : 현재 시간을 얻는다 -> Date 클래스.
 //getDay 월~일 요일을 (1~7) 숫자로 얻음
@@ -9,7 +9,7 @@ function getTime(){
     const date = new Date();
     const minutes = date.getMinutes();
     const hours = date.getHours();
-    
+
     // innerText 객체 안에 text를 넣는 법
     // 3항 연산자 condition True False
     clockTitle.innerText = `${hours < 10 ? `0${hours}` : hours}:${
