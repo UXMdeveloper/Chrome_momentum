@@ -22,13 +22,13 @@ h1{
 }
 .clock{
     position :absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    font-size: 1050%;
-    font-weight : 500;
+    font-size: 800%;
+    font-weight : 300;
     color: white;
     transform : translate(-50%, -50%);
-    font-family : -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .form, 
@@ -56,5 +56,15 @@ h1{
     height : 100%;
     z-index : -1;
     animation: fadeIn 0.5s linear;
+}
+
+.js-quote{
+    color: #ffffff;
+    position: absolute;
+    bottom: 2rem;
+    font-size : 1.25rem;
+    font-weight : 100;
+    width:100%;
+    text-align : center;
 }
 
