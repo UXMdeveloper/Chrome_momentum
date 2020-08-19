@@ -16,7 +16,8 @@ Chrome new tap : momentum clone coding
 + 배경화면 1MB 이하 사진들로 변경
 + 날씨 위젯 구현
 + Todo list emoji 변경
-+ clock font 찾아보기   
++ clock font 찾아보기  
++ github.io 사용하여 URL 올리기
 >Screenshots    
 -완성 후 추가 예정   
 
