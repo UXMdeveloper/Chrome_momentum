@@ -28,19 +28,21 @@ function saveToDos(){
 function paintToDo(text){
     //element를 생성하고, value를 넣어준 뒤 child관계를 이용하여 부모 - 자식 object를 만들어 주는 구조이다.
     const li = document.createElement("li");
+    li.className = "toDo";
     const delBtn = document.createElement("button");
     const span = document.createElement("span")
     //새롭게 만들어지는 li가 가질 id 설정.
     //deletebtn 클릭시 지워야 할 대상을 알기 위함.
     const newId = toDos.length + 1 ; 
     delBtn.innerHTML = "❌";
+    delBtn.className = "toDo__button";
     delBtn.addEventListener("click", deleteToDo);
     span.innerText = text;
     li.appendChild(delBtn);
     li.appendChild(span);
     li.id = newId;
     toDoList.appendChild(li);
-    
+
     const toDoObj = {
         text : text,
         id : newId
@@ -75,3 +77,4 @@ function init() {
 }
 
 init();
+

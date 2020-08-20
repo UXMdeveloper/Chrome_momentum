@@ -16,7 +16,6 @@ h1{
 }
 
 .text-clock{
-    font-family: 'digital-7', sans-serif;
     font-size: 750%;
     font-weight : 300;
     color: white;
@@ -65,7 +64,7 @@ h1{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top:10%;
+    margin-top:5%;
   }
 
 .js-greetings{
@@ -80,9 +79,9 @@ h1{
     justify-content: center;
     align-items: center;
     width: 100%;
-  }
+}
   
-  .js-greetings__header {
+.js-greetings__header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,17 +89,21 @@ h1{
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 30px;
-  }
+}
   
-  .js-greetings {
+.js-greetings {
     margin-right: 10px;
-  }
+}
+
+.js-toDoList{
+    list-style: none;
+}
   
-  .js-userName {
+.js-userName {
     cursor: pointer;
-  }
+}
   
-  .js-form {
+.js-form {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -108,4 +111,21 @@ h1{
     /* height: 40px; */
     margin-bottom: 30px;
     color: #ffffff;
+}
+
+.js-weather{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.list {
+    margin-bottom: 20px;
   }
+  
+.toDo {
+    font-size: 22px;
+}
+  
+.toDo__button {
+    all:unset;
+}

@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="index.css"/>
     </head>
     <body>
+        <span class="js-weather"></span>
         <div class="Aligner">
             <h1 class="text-clock">00:00</h1>
             <div class="js-greetingBox">
@@ -24,12 +25,12 @@
             <h4 class="js-greetings greetings"></h4>
             <!--javascript는 항상 html파일 body 아래에 있어야 한다.-->
             <form class = "js-toDoForm">
-                <input type = "text" placeholder = "Write a to do"/>
+                <input class = " js-add-to-do to-do" type = "text" placeholder = "Write a To Do here"/>
             </form>
-            <ul class="js-toDoList"></ul>
+            <span class="js-toDoList"></span>
         </div>
+
         <div class="js-quote"></div>
-        <span class="js-weather"></span>
         <script src="./js/clock.js"></script>
         <script src="./js/greeting.js"></script>
         <script src="./js/todo.js"></script>
