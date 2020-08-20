@@ -14,7 +14,6 @@ Chrome new tap : momentum clone coding
 >WHAT TO DO (DUE: 08/21)
 + CSS 수정
 + 배경화면 1MB 이하 사진들로 변경
-+ Todo list emoji 변경
 + clock font 찾아보기  
 + github.io 사용하여 URL 올리기
 >Screenshots    
